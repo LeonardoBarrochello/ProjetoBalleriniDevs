@@ -1,0 +1,86 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(52,51,51,0.7);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        align-items:  center;
+        flex-flow: column;
+        width: 463px;
+        height: 650px;
+        background: rgba(52, 51, 51, 0.95);
+        border-radius: 10px;
+        form {
+            display: flex ;
+            flex-flow: column;
+            align-items: center;
+        }
+        .title{
+            font-family: Maven Pro;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 41px;
+            color: var(--white);
+            margin-top: 34px;
+        }
+        .inputBox{
+            margin-top: 20px;
+            .inputName{
+                font-family: Maven Pro;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 26px;
+                margin-bottom: 14px;
+                color: var(--white);
+
+            }
+            .input{
+                width: 310px;
+                height: 30px;
+                border: none;
+                background: var(--white);
+                outline: 0;
+                padding-left: 15px;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+            }
+        }
+        .buttons{
+            width: 310px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 58px;
+
+            .cancelButton,.addButton{
+                width: 125px;
+                height: 40px;
+                color: #000;
+                border: none;
+                font-family: Maven Pro;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+                border-radius: 55px;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+            .cancelButton{
+                background-color: var(--white);
+
+            }
+            .addButton{
+                background-color: var(--green);
+            }
+        }
+    }
+   
+}

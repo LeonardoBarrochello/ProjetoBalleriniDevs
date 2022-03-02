@@ -1,0 +1,64 @@
+
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets//Blobs.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    .content{
+        width: 40%;
+        padding : 120px 0 0 121px;
+        h1{
+            width : 559px;
+            font-family: Overpass;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 61px;
+            color: #D2D2D2; 
+        }
+        p{
+            width: 559px;
+            font-family: Overpass;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            margin-top: 16px;
+            color: #A9A9A9;
+        }
+        .enterBox{
+            width: 241px;
+            margin-top: 69px;
+            .enterButton{
+                width: 241px;
+                height: 58px;
+                background: var(--green);
+                font-family: Overpass;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                border: 0;
+                line-height: 30px;
+                color: var(--white);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 55px;
+            }
+            .enterLink {
+                color: var(--white);
+                text-decoration: none;
+            }
+            .borderButton{
+                width: 70px;
+                margin: 10px auto 0 auto;
+                border-bottom: 2px solid var(--green);
+            }
+        }
+        
+    }
+    img{
+        width:  47%;
+    }
+}
